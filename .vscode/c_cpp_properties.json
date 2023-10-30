@@ -1,0 +1,68 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/dorkycam/projects/lunar-coven/lunar-coven-taxidermist/include",
+                "/Users/dorkycam/projects/lunar-coven/lunar-coven-taxidermist/src",
+                "/Users/dorkycam/projects/lunar-coven/lunar-coven-taxidermist/.pio/libdeps/mkrzero/MFRC522/src",
+                "/Users/dorkycam/.platformio/packages/framework-arduino-megaavr/libraries/SPI/src",
+                "/Users/dorkycam/.platformio/packages/framework-arduino-megaavr/cores/arduino/api/deprecated",
+                "/Users/dorkycam/.platformio/packages/framework-arduino-megaavr/cores/arduino",
+                "/Users/dorkycam/.platformio/packages/framework-arduino-megaavr/variants/nona4809",
+                "/Users/dorkycam/projects/lunar-coven/lunar-coven-taxidermist/.pio/libdeps/mkrzero/Unity/src",
+                "/Users/dorkycam/.platformio/packages/framework-arduino-megaavr/libraries/EEPROM/src",
+                "/Users/dorkycam/.platformio/packages/framework-arduino-megaavr/libraries/HID/src",
+                "/Users/dorkycam/.platformio/packages/framework-arduino-megaavr/libraries/SoftwareSerial/src",
+                "/Users/dorkycam/.platformio/packages/framework-arduino-megaavr/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/dorkycam/projects/lunar-coven/lunar-coven-taxidermist/include",
+                    "/Users/dorkycam/projects/lunar-coven/lunar-coven-taxidermist/src",
+                    "/Users/dorkycam/projects/lunar-coven/lunar-coven-taxidermist/.pio/libdeps/mkrzero/MFRC522/src",
+                    "/Users/dorkycam/.platformio/packages/framework-arduino-megaavr/libraries/SPI/src",
+                    "/Users/dorkycam/.platformio/packages/framework-arduino-megaavr/cores/arduino/api/deprecated",
+                    "/Users/dorkycam/.platformio/packages/framework-arduino-megaavr/cores/arduino",
+                    "/Users/dorkycam/.platformio/packages/framework-arduino-megaavr/variants/nona4809",
+                    "/Users/dorkycam/projects/lunar-coven/lunar-coven-taxidermist/.pio/libdeps/mkrzero/Unity/src",
+                    "/Users/dorkycam/.platformio/packages/framework-arduino-megaavr/libraries/EEPROM/src",
+                    "/Users/dorkycam/.platformio/packages/framework-arduino-megaavr/libraries/HID/src",
+                    "/Users/dorkycam/.platformio/packages/framework-arduino-megaavr/libraries/SoftwareSerial/src",
+                    "/Users/dorkycam/.platformio/packages/framework-arduino-megaavr/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60111",
+                "ARDUINO_AVR_NANO_EVERY",
+                "AVR_NANO_4809_328MODE",
+                "MILLIS_USE_TIMERB3",
+                "NO_EXTERNAL_I2C_PULLUP",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_MEGAAVR",
+                "ARDUINO=10808",
+                "USB_VID=0x2341",
+                "USB_PID=0x0058",
+                "USB_PRODUCT=\"Arduino Nano Every\"",
+                "USB_MANUFACTURER=\"Arduino\"",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "/Users/dorkycam/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega4809",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
